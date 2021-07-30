@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: gray; */
+    
+}
+.chrom{
+    margin-top: 10px;
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(243, 241, 241);
+    border: 0.5px solid rgba(104, 97, 97, 0.281);
+    text-align: left;
+    
+    line-height: 10px;
+}
+.chrom .text1{
+    margin-top: 7px;
+    font-size: 12px;
+    
+}
+.times{
+    font-size: 20px;
+    margin-top: 7px;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.fb1{
+    width: 100%;
+    height: 20%;
+    background-color:#385898 ;
+    border: 0.5px solid rgba(104, 97, 97, 0.281);
+    text-align: center;
+    border-radius: 0px 0px 3px 3px;
+   
+    
+}
+.fb1 p{
+    margin-top: 7px;
+    font-size: 27px;
+    color: white;
+    font-weight: 650;
+}
+.account{
+    margin-top: 8px;
+    border-radius: 3px;
+    margin-left: -15px;
+    width: 100%;
+    height: 50%;
+    border: 0.5px solid rgba(104, 97, 97, 0.281);
+    color: gray;
+    font-size: 13px;
+   
+}
+.row .p1{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.815);
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.row .p3, .row .p4, .row .p2{
+    text-align: center;
+}
+.row .find{
+    margin-left: 15px;
+    width: 720px;
+    height: 50px;
+    border: 0.5px solid rgba(104, 97, 97, 0.281);
+    border-left: none;
+    border-right: none;
+    background-color: rgba(170, 163, 163, 0.116);
+    text-align: center;
+    padding: 10px;
+    color: #385898;
+    border-radius:3px;
+    
+}
+.row .find p{
+    cursor: pointer;
+}
+.row .consident{
+    position:absolute;
+    border-radius: 3px;
+    margin-top: 7px;
+    width: 720px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 7px;
+    box-sizing: border-box;
+    text-align: center;
+    height: auto;
+    color: white;
+    border: 0.5px solid rgba(104, 97, 97, 0.281);
+    background-color: #3578E5;
+}
+.row .consident  a{
+    margin-top: 7px;
+    color: white;
+
+}
