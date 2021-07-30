@@ -5,8 +5,9 @@
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: auto;
     position: relative;
+    overflow: hidden;
     /* background-color: gray; */
     
 }
@@ -24,7 +25,7 @@
 .chrom .text1{
     margin-top: 7px;
     font-size: 12px;
-    
+
 }
 .times{
     font-size: 20px;
@@ -57,6 +58,7 @@
     border: 0.5px solid rgba(104, 97, 97, 0.281);
     color: gray;
     font-size: 13px;
+    position: relative;
    
 }
 .row .p1{
@@ -70,10 +72,8 @@
 .row .p3, .row .p4, .row .p2{
     text-align: center;
 }
-.row .find{
-    margin-left: 15px;
-    width: 720px;
-    height: 50px;
+.find{
+
     border: 0.5px solid rgba(104, 97, 97, 0.281);
     border-left: none;
     border-right: none;
@@ -82,28 +82,25 @@
     padding: 10px;
     color: #385898;
     border-radius:3px;
+   
     
 }
-.row .find p{
+ .find p{
     cursor: pointer;
+    
 }
-.row .consident{
-    position:absolute;
+.consident{
     border-radius: 3px;
-    margin-top: 7px;
-    width: 720px;
-    height: 50px;
     padding: 5px;
+    margin:auto;
     margin-top: 7px;
-    box-sizing: border-box;
     text-align: center;
-    height: auto;
     color: white;
     border: 0.5px solid rgba(104, 97, 97, 0.281);
-    background-color: #3578E5;
+    background-color: #3578e5;
 }
-.row .consident  a{
+.consident a{
     margin-top: 7px;
     color: white;
-
 }
+/*  */
